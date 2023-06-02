@@ -1,0 +1,30 @@
+.glass {
+  /* background: rgba(255, 255, 255, 0.55); */
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #4747470b;
+  backdrop-filter: blr(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  @apply border-4 shadow-xl border-gray-50 shrink-0  mt-20 mb-10 rounded-3xl py-10 w-[30%] px-7 min-w-[82%];
+}
+.glass:sm {
+  @apply h-screen;
+}
+
+.textbox {
+  @apply border-2 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+  @apply focus:outline-none;
+}
+
+.btn {
+  @apply border bg-green-500 w-3/4 py-4 rounded-lg text-gray-50 text-xl shadow-sm text-center;
+}
+
+.btn:hover {
+  /* background-color: #ff6a6a; */
+  /* background-color: teal; */
+}
+
+input[type="file"] {
+  display: none;
+}
